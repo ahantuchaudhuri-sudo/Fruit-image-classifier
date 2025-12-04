@@ -1,0 +1,13 @@
+fruit-image-classifier/
+│── README.md
+│── requirements.txt
+│── fruit_classifier.py
+│── dataset/
+      ├── train/
+      │    ├── apple/
+      │    ├── banana/
+      │    ├── orange/
+      ├── test/
+           ├── apple/
+           ├── banana/
+           ├── orange/
