@@ -1,12 +1,15 @@
-# Fruit Image Classifier (CNN)
+# Stock Price Predictor (LSTM)
 
-Classifies images of fruits (apple, banana, orange) using a Convolutional Neural Network.
+This machine learning project predicts future stock prices using an LSTM deep learning model.
 
-### Dataset
-Use Fruits-360 dataset (Kaggle recommended)
+### Features
+- Fetches real stock data from Yahoo Finance
+- Scales and prepares the data
+- Trains an LSTM model for prediction
+- Visualizes actual vs predicted prices
 
-### Install packages
+### Installation
 pip install -r requirements.txt
 
-### Train the model
-python fruit_classifier.py
+### Run
+python stock_price_predictor.py
